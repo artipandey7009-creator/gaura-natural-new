@@ -40,16 +40,46 @@ const HomePage = () => {
           }}
         />
         <div className="hero-overlay absolute inset-0" />
-        <div className="relative z-10 text-center px-4 max-w-4xl">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 text-shadow" data-testid="hero-title">
-            Touch of Nature
-          </h1>
-          <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Handcrafted eco-friendly aromatics from recycled flowers and cow dung.
-            Experience purity, spirituality, and the essence of Vedic tradition.
+        <div className="relative z-10 text-center px-4 max-w-5xl">
+          <div className="mb-6">
+            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-serif font-bold text-white mb-3 text-shadow" data-testid="hero-title">
+              GAURA
+            </h1>
+            <p className="text-xl sm:text-2xl text-[#D5A147] font-serif italic mb-2">
+              Touch of Nature
+            </p>
+          </div>
+          
+          <p className="text-lg sm:text-xl text-white/95 mb-6 max-w-3xl mx-auto">
+            A symbol of peace, purity, and connection to nature.
           </p>
+          
+          <p className="text-base sm:text-lg text-white/90 mb-8 max-w-3xl mx-auto">
+            Handcrafted eco-friendly aromatics from recycled temple flowers and cow dung.
+            Experience spirituality and the essence of Vedic tradition in every product.
+          </p>
+
+          {/* Logo Concept */}
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-sm p-6 mb-8 max-w-3xl mx-auto">
+            <p className="text-sm sm:text-base text-white/95 mb-4 font-semibold">Our Logo Tells Our Story:</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-white/90">
+              <div className="flex flex-col items-center text-center">
+                <span className="text-4xl font-serif font-bold text-[#D5A147] mb-2">G</span>
+                <p className="leading-relaxed">Represents style and <span className="font-semibold text-white">modernism</span></p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <span className="text-4xl font-serif font-bold text-[#D5A147] mb-2">U</span>
+                <p className="leading-relaxed">Forms a <span className="font-semibold text-white">drop</span> representing our itra segment</p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <span className="text-4xl font-serif font-bold text-[#D5A147] mb-2">A</span>
+                <p className="leading-relaxed">Negative space forms a <span className="font-semibold text-white">flower petal</span></p>
+              </div>
+            </div>
+          </div>
+
           <Link to="/products">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg" data-testid="hero-shop-button">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-10 py-6 text-lg shadow-lg hover:shadow-xl transition-all duration-400" data-testid="hero-shop-button">
               Explore Collection
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
