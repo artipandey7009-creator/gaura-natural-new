@@ -140,23 +140,23 @@ const HomePage = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="p-8 border-border hover:shadow-lg transition-all duration-300 text-center">
-              <Leaf className="h-12 w-12 text-accent mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-semibold mb-2">Eco-Friendly</h3>
+            <Card className="p-8 text-center border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 hover:shadow-[0_8px_24px_rgba(213,161,71,0.15)]">
+              <Leaf className="h-12 w-12 text-[#D5A147] mx-auto mb-4" />
+              <h3 className="text-xl font-serif font-semibold mb-2 text-[#633014]">Eco-Friendly</h3>
               <p className="text-muted-foreground text-sm">
-                Made from floral waste and natural ingredients, supporting environmental sustainability.
+                Made from recycled temple flowers and cow dung, supporting environmental sustainability.
               </p>
             </Card>
-            <Card className="p-8 border-border hover:shadow-lg transition-all duration-300 text-center">
-              <Sparkles className="h-12 w-12 text-accent mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-semibold mb-2">Handcrafted</h3>
+            <Card className="p-8 text-center border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 hover:shadow-[0_8px_24px_rgba(213,161,71,0.15)]">
+              <Sparkles className="h-12 w-12 text-[#D5A147] mx-auto mb-4" />
+              <h3 className="text-xl font-serif font-semibold mb-2 text-[#633014]">Handcrafted</h3>
               <p className="text-muted-foreground text-sm">
                 Lovingly crafted by village women artisans, preserving traditional methods.
               </p>
             </Card>
-            <Card className="p-8 border-border hover:shadow-lg transition-all duration-300 text-center">
-              <Heart className="h-12 w-12 text-accent mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-semibold mb-2">Pure & Natural</h3>
+            <Card className="p-8 text-center border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 hover:shadow-[0_8px_24px_rgba(213,161,71,0.15)]">
+              <Heart className="h-12 w-12 text-[#D5A147] mx-auto mb-4" />
+              <h3 className="text-xl font-serif font-semibold mb-2 text-[#633014]">Pure & Natural</h3>
               <p className="text-muted-foreground text-sm">
                 Free from harmful chemicals, bringing the purest essence of nature to your space.
               </p>
