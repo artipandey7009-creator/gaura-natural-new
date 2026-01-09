@@ -60,8 +60,9 @@ const AboutPage = () => {
               <Award className="h-12 w-12 text-accent mx-auto mb-4" />
               <h3 className="text-xl font-serif font-semibold mb-3">Our Values</h3>
               <p className="text-muted-foreground text-sm">
-                Sustainability, tradition, quality, and social responsibility guide everything we do.
-                We believe in creating products that are good for people and the planet.
+                Purity, Tradition, Sustainability, and Innovation guide everything we do. We believe in 
+                creating products that honor Vedic practices, protect health, nurture spiritual well-being, 
+                and foster eco-luxury experiences that connect you with nature.
               </p>
             </Card>
 
