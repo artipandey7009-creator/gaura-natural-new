@@ -56,8 +56,8 @@ const SustainabilityPage = () => {
             </Card>
 
             <Card className="p-8">
-              <Leaf className="h-12 w-12 text-accent mb-4" />
-              <h3 className="text-2xl font-serif font-semibold mb-4">Natural Ingredients</h3>
+              <Leaf className="h-12 w-12 text-[#D5A147] mb-4" />
+              <h3 className="text-2xl font-serif font-semibold mb-4 text-[#633014]">Natural Ingredients</h3>
               <p className="text-muted-foreground">
                 Our products are made exclusively from natural ingredients including recycled temple flowers,
                 cow dung, herbs, and essential oils. We're leading the charcoal-free incense movement with 
