@@ -45,8 +45,8 @@ const HomePage = () => {
             Touch of Nature
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Premium aromatics crafted from floral waste and natural ingredients.
-            Experience the essence of Vedic tradition.
+            Handcrafted eco-friendly aromatics from recycled flowers and cow dung.
+            Experience purity, spirituality, and the essence of Vedic tradition.
           </p>
           <Link to="/products">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg" data-testid="hero-shop-button">
