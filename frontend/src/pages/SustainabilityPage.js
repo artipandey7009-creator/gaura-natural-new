@@ -67,8 +67,8 @@ const SustainabilityPage = () => {
             </Card>
 
             <Card className="p-8">
-              <Users className="h-12 w-12 text-accent mb-4" />
-              <h3 className="text-2xl font-serif font-semibold mb-4">Empowering Artisans</h3>
+              <Users className="h-12 w-12 text-[#D5A147] mb-4" />
+              <h3 className="text-2xl font-serif font-semibold mb-4 text-[#633014]">Empowering Artisans</h3>
               <p className="text-muted-foreground">
                 Every product is handcrafted by skilled village women artisans. By choosing our products,
                 you support fair wages, traditional craftsmanship, and the economic independence of
@@ -77,8 +77,8 @@ const SustainabilityPage = () => {
             </Card>
 
             <Card className="p-8">
-              <Heart className="h-12 w-12 text-accent mb-4" />
-              <h3 className="text-2xl font-serif font-semibold mb-4">Social Impact</h3>
+              <Heart className="h-12 w-12 text-[#D5A147] mb-4" />
+              <h3 className="text-2xl font-serif font-semibold mb-4 text-[#633014]">Social Impact</h3>
               <p className="text-muted-foreground">
                 Beyond environmental benefits, our initiative creates sustainable livelihoods,
                 preserves traditional knowledge, and builds stronger communities. Each purchase
