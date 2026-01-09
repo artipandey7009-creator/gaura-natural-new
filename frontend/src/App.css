@@ -2,65 +2,106 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: #633014;
 }
 
 .glass-header {
-  background: rgba(249, 248, 244, 0.8);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(213, 161, 71, 0.2);
+  background: rgba(249, 248, 244, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(213, 161, 71, 0.15);
+  box-shadow: 0 2px 8px rgba(99, 48, 20, 0.03);
 }
 
 .hero-overlay {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent, rgba(0, 0, 0, 0.6));
+  background: linear-gradient(to bottom, rgba(99, 48, 20, 0.2), transparent, rgba(99, 48, 20, 0.5));
 }
 
 .btn-primary {
   background: #D5A147;
   color: white;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 12px rgba(213, 161, 71, 0.2);
 }
 
 .btn-primary:hover {
-  background: #B88A38;
+  background: #C39138;
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(99, 48, 20, 0.1);
+  box-shadow: 0 8px 20px rgba(213, 161, 71, 0.3);
 }
 
 .btn-secondary {
-  border: 1px solid #633014;
+  border: 2px solid #633014;
   color: #633014;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  background: transparent;
 }
 
 .btn-secondary:hover {
   background: #633014;
   color: white;
+  box-shadow: 0 4px 12px rgba(99, 48, 20, 0.2);
 }
 
 .product-card-hover:hover img {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .product-card-hover img {
-  transition: transform 0.7s ease;
+  transition: transform 0.8s ease;
+}
+
+.product-card-hover {
+  transition: all 0.4s ease;
+}
+
+.product-card-hover:hover {
+  box-shadow: 0 12px 28px rgba(213, 161, 71, 0.15);
+  border-color: #D5A147;
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.6s ease-in;
+  animation: fadeIn 0.8s ease-in;
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Spiritual and calming aesthetics */
+.spiritual-glow {
+  box-shadow: 0 0 20px rgba(213, 161, 71, 0.3);
+}
+
+.natural-transition {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Button styles with golden accent */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #D5A147;
+  outline-offset: 2px;
+}
+
+/* Smooth scrolling for spiritual calmness */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+  background-color: #D5A147;
+  color: white;
 }
