@@ -44,6 +44,16 @@ const AboutPage = () => {
             </p>
           </div>
 
+          {/* Mission Statement - Highlighted */}
+          <div className="bg-gradient-to-r from-[#D5A147] to-[#C39138] rounded-sm p-12 mb-16 text-center">
+            <h2 className="text-3xl font-serif font-bold text-white mb-6">Our Mission</h2>
+            <p className="text-xl text-white/95 max-w-3xl mx-auto leading-relaxed">
+              To revive Vedic practices using recycled temple flowers and cow dung to create sustainable 
+              eco-luxury products. We transform natural waste into premium aromatics while empowering village 
+              women artisans, protecting health, and preserving ancient traditions for modern living.
+            </p>
+          </div>
+
           {/* Values */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <Card className="p-8 text-center">
