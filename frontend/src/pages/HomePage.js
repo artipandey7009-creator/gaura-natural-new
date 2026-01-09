@@ -95,21 +95,85 @@ const HomePage = () => {
               Shop by Category
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover our handcrafted aromatics, each telling a story of sustainability and tradition.
+              Discover our handcrafted, charcoal-free aromatics. Every product promotes air purification and stress relief.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {categories.map((category, index) => (
-              <Link to={`/products?category=${category}`} key={index}>
-                <Card className="group relative overflow-hidden border-border hover:border-primary/50 transition-all duration-500 h-64" data-testid={`category-card-${index}`}>
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-secondary/80" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <h3 className="text-3xl font-serif font-bold text-white z-10">{category}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Link to="/products?category=Incense & Aromatics">
+              <Card className="group relative overflow-hidden border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 h-64 hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]" data-testid="category-card-0">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#633014]/60 to-[#633014]/90" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+                  <h3 className="text-2xl font-serif font-bold text-white z-10 mb-3">Incense & Aromatics</h3>
+                  <p className="text-white/90 text-sm z-10 mb-4">Sambrani, Dhoop Cone, Agarbatti, Bamboo-less Sticks</p>
+                  <div className="flex flex-wrap gap-2 justify-center z-10">
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Handmade</span>
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Charcoal-free</span>
                   </div>
-                </Card>
-              </Link>
-            ))}
+                </div>
+              </Card>
+            </Link>
+
+            <Link to="/products?category=Fragrances">
+              <Card className="group relative overflow-hidden border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 h-64 hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]" data-testid="category-card-1">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#633014]/60 to-[#633014]/90" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+                  <h3 className="text-2xl font-serif font-bold text-white z-10 mb-3">Fragrances</h3>
+                  <p className="text-white/90 text-sm z-10 mb-4">Ittar, Solid Perfumes, Car Perfumes, Essential Oils</p>
+                  <div className="flex flex-wrap gap-2 justify-center z-10">
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Handmade</span>
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Natural</span>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
+            <Link to="/products?category=Personal Care">
+              <Card className="group relative overflow-hidden border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 h-64 hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]" data-testid="category-card-2">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#633014]/60 to-[#633014]/90" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+                  <h3 className="text-2xl font-serif font-bold text-white z-10 mb-3">Personal Care</h3>
+                  <p className="text-white/90 text-sm z-10 mb-4">Shampoo, Soft Bar Soap, Body Shower Gel</p>
+                  <div className="flex flex-wrap gap-2 justify-center z-10">
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Handmade</span>
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Charcoal-free</span>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
+            <Link to="/products?category=Utility">
+              <Card className="group relative overflow-hidden border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 h-64 hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]" data-testid="category-card-3">
+                <div className="absolute inset-0 bg-gradient-to-b from-[#633014]/60 to-[#633014]/90" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+                  <h3 className="text-2xl font-serif font-bold text-white z-10 mb-3">Utility</h3>
+                  <p className="text-white/90 text-sm z-10 mb-4">Candles, Mosquito Repellents</p>
+                  <div className="flex flex-wrap gap-2 justify-center z-10">
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Handmade</span>
+                    <span className="text-xs px-2 py-1 bg-[#D5A147]/90 text-white rounded">Air purification</span>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </div>
+
+          {/* Key Benefits Banner */}
+          <div className="mt-16 bg-gradient-to-r from-[#D5A147] to-[#C39138] rounded-sm p-8 text-center">
+            <h3 className="text-2xl font-serif font-bold text-white mb-4">Why Choose GAURA Naturals?</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white">
+              <div>
+                <p className="font-semibold mb-1">✓ 100% Handmade</p>
+                <p className="text-sm text-white/90">Crafted by village women artisans</p>
+              </div>
+              <div>
+                <p className="font-semibold mb-1">✓ Charcoal-Free Formula</p>
+                <p className="text-sm text-white/90">Chemical-free, pure ingredients</p>
+              </div>
+              <div>
+                <p className="font-semibold mb-1">✓ Air Purification & Stress Relief</p>
+                <p className="text-sm text-white/90">Wellness benefits in every product</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
