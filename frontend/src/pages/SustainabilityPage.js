@@ -28,12 +28,19 @@ const SustainabilityPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto mb-16">
             <h2 className="text-4xl font-serif font-bold text-foreground mb-6 text-center">
-              From Temple Flowers to Premium Aromatics
+              Transforming Waste into Premium Aromatics
             </h2>
             <p className="text-lg text-muted-foreground text-center mb-8">
-              Every day, temples across India discard tons of floral waste. At Gaura Naturals,
-              we transform these sacred offerings into premium aromatics, giving them a second life
-              while preserving their spiritual essence.
+              Every day, temples across India discard tons of sacred flowers. At Gaura Naturals,
+              we collect these blessed offerings and transform them - along with cow dung - into premium 
+              aromatics. This gives them a second life while preserving their spiritual essence and 
+              supporting village women artisans who handcraft each product using traditional methods.
+            </p>
+            <p className="text-lg text-muted-foreground text-center">
+              Founded in October 2025 in Uttar Pradesh, we're pioneering the eco-luxury aromatics movement,
+              reviving Vedic practices with modern sustainable innovation. Our charcoal-free, bamboo-less 
+              products offer chemical-free alternatives that protect health, purify spaces, and balance doshas 
+              while honoring ancient traditions.
             </p>
           </div>
 
