@@ -117,10 +117,15 @@
     "7. TESTING: Add data-testid to all interactive elements (buttons, inputs, links)."
   ],
   "universal_guidelines": [
-    "Avoid 'AI Slop' - no generic gradients or default Tailwind blues.",
-    "Dark colors must be rich (brown/green), not just gray.",
-    "Use glassmorphism for sticky headers.",
-    "Ensure all text meets APCA contrast standards against the cream background.",
-    "Do not use emojis in the UI."
+    "Brand represents purity, spirituality, and natural calmness - 'Touch of Nature'",
+    "Golden Yellow (#D5A147) symbolizes spirituality, light, and sacred warmth",
+    "Brown (#633014) represents earthiness and natural purity",
+    "Use bold, clean typography for confidence and timelessness",
+    "Design should merge tradition with modern simplicity",
+    "Create devotional and elegant user experiences",
+    "Ensure all text has sufficient contrast against cream background (#F9F8F4)",
+    "No emojis in UI - maintain sophisticated, spiritual aesthetic",
+    "Use smooth, calming transitions (0.4-0.5s) to reflect natural calmness",
+    "Golden accents on interactive elements to represent sacred warmth"
   ]
 }
