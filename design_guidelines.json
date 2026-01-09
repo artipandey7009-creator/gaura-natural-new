@@ -63,16 +63,16 @@
   },
   "component_styles": {
     "buttons": {
-      "primary": "bg-[#D5A147] text-white hover:bg-[#B88A38] rounded-sm px-8 py-3 font-serif tracking-wide transition-all duration-300 shadow-md hover:shadow-lg",
-      "secondary": "border border-[#633014] text-[#633014] hover:bg-[#633014] hover:text-white rounded-sm px-8 py-3 font-sans tracking-wide transition-all duration-300",
-      "ghost": "text-[#633014] hover:bg-[#633014]/10 rounded-sm px-4 py-2 transition-colors"
+      "primary": "bg-[#D5A147] text-white hover:bg-[#C39138] rounded-sm px-8 py-3 font-serif tracking-wide transition-all duration-400 shadow-md hover:shadow-lg hover:-translate-y-0.5",
+      "secondary": "border-2 border-[#633014] text-[#633014] hover:bg-[#633014] hover:text-white rounded-sm px-8 py-3 font-sans tracking-wide transition-all duration-400",
+      "ghost": "text-[#633014] hover:bg-[#D5A147]/10 rounded-sm px-4 py-2 transition-colors"
     },
     "inputs": {
-      "default": "bg-white border-[#D7CCC8] focus:border-[#D5A147] focus:ring-1 focus:ring-[#D5A147] rounded-sm px-4 py-3 text-[#633014] placeholder:text-[#8D6E63]/60"
+      "default": "bg-white border-[#D7CCC8] focus:border-[#D5A147] focus:ring-2 focus:ring-[#D5A147]/20 rounded-sm px-4 py-3 text-[#633014] placeholder:text-[#633014]/50"
     },
     "cards": {
-      "product": "group relative bg-white border border-[#EBE5D9] hover:border-[#D5A147]/50 transition-all duration-500 overflow-hidden rounded-sm",
-      "feature": "bg-[#F9F8F4] p-8 border border-[#EBE5D9] hover:shadow-soft transition-all duration-300"
+      "product": "group relative bg-white border border-[#EBE5D9] hover:border-[#D5A147] transition-all duration-500 overflow-hidden rounded-sm hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]",
+      "feature": "bg-[#F9F8F4] p-8 border border-[#EBE5D9] hover:shadow-soft transition-all duration-400"
     }
   },
   "layout_strategies": {
