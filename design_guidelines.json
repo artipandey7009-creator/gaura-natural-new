@@ -1,0 +1,114 @@
+{
+  "brand_identity": {
+    "name": "Gaura Naturals Pvt Ltd",
+    "tone": "Vedic-inspired, Pure, Luxurious, Earthy, Spiritual",
+    "colors": {
+      "primary": "#D5A147",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#633014",
+      "secondary_foreground": "#FFFFFF",
+      "accent": "#2D4F1E",
+      "accent_foreground": "#FFFFFF",
+      "background": "#F9F8F4",
+      "foreground": "#3E2723",
+      "muted": "#EBE5D9",
+      "muted_foreground": "#8D6E63",
+      "border": "#D7CCC8",
+      "input": "#EFEBE9",
+      "ring": "#D5A147"
+    },
+    "typography": {
+      "headings": {
+        "family": "Vortigra, 'Cormorant Garamond', serif",
+        "weight": "400",
+        "style": "normal",
+        "letter_spacing": "-0.02em"
+      },
+      "body": {
+        "family": "Quicksand, sans-serif",
+        "weight": "400",
+        "style": "normal",
+        "letter_spacing": "0.02em"
+      }
+    }
+  },
+  "design_system": {
+    "radius": "0.25rem",
+    "spacing": {
+      "container_padding": "2rem",
+      "section_gap": "6rem",
+      "element_gap": "1.5rem"
+    },
+    "shadows": {
+      "soft": "0 4px 20px -2px rgba(99, 48, 20, 0.05)",
+      "hover": "0 10px 25px -5px rgba(99, 48, 20, 0.1), 0 8px 10px -6px rgba(99, 48, 20, 0.1)"
+    },
+    "glassmorphism": {
+      "background": "rgba(249, 248, 244, 0.8)",
+      "blur": "12px",
+      "border": "1px solid rgba(213, 161, 71, 0.2)"
+    }
+  },
+  "component_styles": {
+    "buttons": {
+      "primary": "bg-[#D5A147] text-white hover:bg-[#B88A38] rounded-sm px-8 py-3 font-serif tracking-wide transition-all duration-300 shadow-md hover:shadow-lg",
+      "secondary": "border border-[#633014] text-[#633014] hover:bg-[#633014] hover:text-white rounded-sm px-8 py-3 font-sans tracking-wide transition-all duration-300",
+      "ghost": "text-[#633014] hover:bg-[#633014]/10 rounded-sm px-4 py-2 transition-colors"
+    },
+    "inputs": {
+      "default": "bg-white border-[#D7CCC8] focus:border-[#D5A147] focus:ring-1 focus:ring-[#D5A147] rounded-sm px-4 py-3 text-[#633014] placeholder:text-[#8D6E63]/60"
+    },
+    "cards": {
+      "product": "group relative bg-white border border-[#EBE5D9] hover:border-[#D5A147]/50 transition-all duration-500 overflow-hidden rounded-sm",
+      "feature": "bg-[#F9F8F4] p-8 border border-[#EBE5D9] hover:shadow-soft transition-all duration-300"
+    }
+  },
+  "layout_strategies": {
+    "hero": {
+      "style": "Full-screen immersive with slow-zoom background image",
+      "overlay": "bg-gradient-to-b from-black/30 via-transparent to-black/60",
+      "text_alignment": "center"
+    },
+    "product_grid": {
+      "style": "Masonry or Asymmetrical Grid (Bento)",
+      "gap": "gap-8",
+      "columns": "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+    },
+    "section_spacing": "py-24 md:py-32"
+  },
+  "assets": {
+    "hero_images": [
+      "https://images.unsplash.com/photo-1426244434402-9d59aceabbf3?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1593259214117-f8e5ae25953b?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ],
+    "product_placeholders": [
+      "https://images.unsplash.com/photo-1710705012589-f71f6e952fb9?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1571498135501-58d46d846dd8?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1666552981195-93f2e2ac1232?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ],
+    "storytelling": [
+      "https://images.unsplash.com/photo-1763733593267-c0fb2051d73a?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1678082309214-3b2941e387f8?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ],
+    "textures": [
+      "https://images.unsplash.com/photo-1662971885486-f48199286c4d?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "https://images.unsplash.com/photo-1636101943361-4d8998149205?crop=entropy&cs=srgb&fm=jpg&q=85"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'Cormorant Garamond' and 'Quicksand' from Google Fonts immediately in index.css if 'Vortigra' is not available locally.",
+    "2. THEME: Implement the 'Golden Earth' theme. Avoid pure black (#000) and pure white (#fff). Use the provided off-white and dark brown.",
+    "3. COMPONENTS: Customize Shadcn components to remove the 'default tech look'. Increase border radius to 'sm' or keep 'none' for a sharp, premium feel. Do not use 'rounded-xl'.",
+    "4. IMAGERY: Use the provided asset URLs for placeholders. Do not leave empty gray boxes.",
+    "5. LAYOUT: Use generous padding (py-24) between sections. Luxury = Space.",
+    "6. INTERACTION: Add 'hover:scale-105' and 'transition-transform duration-700' to product images for a slow, elegant zoom effect.",
+    "7. TESTING: Add data-testid to all interactive elements (buttons, inputs, links)."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI Slop' - no generic gradients or default Tailwind blues.",
+    "Dark colors must be rich (brown/green), not just gray.",
+    "Use glassmorphism for sticky headers.",
+    "Ensure all text meets APCA contrast standards against the cream background.",
+    "Do not use emojis in the UI."
+  ]
+}
