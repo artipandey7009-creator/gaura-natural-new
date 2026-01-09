@@ -57,8 +57,8 @@ const AboutPage = () => {
             </Card>
 
             <Card className="p-8 text-center">
-              <Award className="h-12 w-12 text-accent mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-semibold mb-3">Our Values</h3>
+              <Award className="h-12 w-12 text-[#D5A147] mx-auto mb-4" />
+              <h3 className="text-xl font-serif font-semibold mb-3 text-[#633014]">Our Values</h3>
               <p className="text-muted-foreground text-sm">
                 Purity, Tradition, Sustainability, and Innovation guide everything we do. We believe in 
                 creating products that honor Vedic practices, protect health, nurture spiritual well-being, 
@@ -67,8 +67,8 @@ const AboutPage = () => {
             </Card>
 
             <Card className="p-8 text-center">
-              <Users className="h-12 w-12 text-accent mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-semibold mb-3">Our Community</h3>
+              <Users className="h-12 w-12 text-[#D5A147] mx-auto mb-4" />
+              <h3 className="text-xl font-serif font-semibold mb-3 text-[#633014]">Our Community</h3>
               <p className="text-muted-foreground text-sm">
                 Working with over 200 village women artisans, we preserve traditional craftsmanship
                 while providing sustainable livelihoods and economic independence.
