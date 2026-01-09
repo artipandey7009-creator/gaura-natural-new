@@ -22,7 +22,7 @@ module.exports = {
         input: "#EFEBE9",
         ring: "#D5A147",
         background: "#F9F8F4",
-        foreground: "#3E2723",
+        foreground: "#633014",
         primary: {
           DEFAULT: "#D5A147",
           foreground: "#FFFFFF",
@@ -37,19 +37,19 @@ module.exports = {
         },
         muted: {
           DEFAULT: "#EBE5D9",
-          foreground: "#8D6E63",
+          foreground: "#633014",
         },
         accent: {
-          DEFAULT: "#2D4F1E",
+          DEFAULT: "#D5A147",
           foreground: "#FFFFFF",
         },
         popover: {
           DEFAULT: "#FFFFFF",
-          foreground: "#3E2723",
+          foreground: "#633014",
         },
         card: {
           DEFAULT: "#FFFFFF",
-          foreground: "#3E2723",
+          foreground: "#633014",
         },
       },
       borderRadius: {
