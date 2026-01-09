@@ -58,7 +58,7 @@ module.exports = {
         sm: "0.125rem",
       },
       fontFamily: {
-        serif: ["'Cormorant Garamond'", "serif"],
+        serif: ["'Vortigra'", "'Cormorant Garamond'", "serif"],
         sans: ["'Quicksand'", "sans-serif"],
       },
       keyframes: {
