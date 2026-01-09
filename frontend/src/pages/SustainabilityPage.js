@@ -59,9 +59,10 @@ const SustainabilityPage = () => {
               <Leaf className="h-12 w-12 text-accent mb-4" />
               <h3 className="text-2xl font-serif font-semibold mb-4">Natural Ingredients</h3>
               <p className="text-muted-foreground">
-                Our products are made exclusively from natural ingredients including cow dung,
-                temple flowers, herbs, and essential oils. No chemicals, no artificial fragrances -
-                just pure, natural aromatics that honor both nature and tradition.
+                Our products are made exclusively from natural ingredients including recycled temple flowers,
+                cow dung, herbs, and essential oils. We're leading the charcoal-free incense movement with 
+                bamboo-less sticks and dhoop cones. No chemicals, no artificial fragrances - just pure, 
+                natural aromatics that honor both nature and Vedic tradition.
               </p>
             </Card>
 
