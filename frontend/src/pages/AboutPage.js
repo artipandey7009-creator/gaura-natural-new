@@ -50,8 +50,9 @@ const AboutPage = () => {
               <Target className="h-12 w-12 text-accent mx-auto mb-4" />
               <h3 className="text-xl font-serif font-semibold mb-3">Our Mission</h3>
               <p className="text-muted-foreground text-sm">
-                To create premium, eco-friendly aromatics while empowering rural artisans and
-                reducing environmental impact through innovative waste transformation.
+                To inspire a shift towards chemical-free alternatives, protecting health and the planet. 
+                We create premium, eco-friendly aromatics while empowering rural artisans, supporting Vedic 
+                rituals, balancing doshas, and purifying spaces through sustainable innovation.
               </p>
             </Card>
 
