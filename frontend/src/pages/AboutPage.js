@@ -31,15 +31,16 @@ const AboutPage = () => {
               Our Story
             </h2>
             <p className="text-lg text-muted-foreground text-center mb-6">
-              Gaura Naturals was born from a simple yet powerful vision: to honor our Vedic traditions
-              while creating a sustainable future. Founded with the mission to transform floral waste
-              and natural materials into premium aromatics, we bridge the gap between ancient wisdom
-              and modern environmental consciousness.
+              Founded in October 2025 in Uttar Pradesh, India, Gaura Naturals Pvt Ltd was born from a powerful vision: 
+              to transform natural waste into premium aromatic products while honoring our Vedic traditions. 
+              We bridge the gap between ancient wisdom and modern environmental consciousness, creating sustainable 
+              alternatives that protect health and the planet.
             </p>
             <p className="text-lg text-muted-foreground text-center">
-              Every product we create tells a story of transformation - from temple flowers that once
-              served in sacred rituals to handcrafted incense that purifies your space, each item
-              carries the essence of devotion, sustainability, and artisan craftsmanship.
+              Every product tells a story of transformation - from recycled temple flowers and cow dung that once 
+              served sacred rituals to handcrafted aromatics that purify your space. Each item carries the essence 
+              of purity, devotion, and artisan craftsmanship, empowering village women artisans and reviving 
+              Vedic practices in modern eco-luxury.
             </p>
           </div>
 
