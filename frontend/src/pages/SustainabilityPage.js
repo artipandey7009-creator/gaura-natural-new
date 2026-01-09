@@ -46,8 +46,8 @@ const SustainabilityPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <Card className="p-8">
-              <Recycle className="h-12 w-12 text-accent mb-4" />
-              <h3 className="text-2xl font-serif font-semibold mb-4">Circular Economy</h3>
+              <Recycle className="h-12 w-12 text-[#D5A147] mb-4" />
+              <h3 className="text-2xl font-serif font-semibold mb-4 text-[#633014]">Circular Economy</h3>
               <p className="text-muted-foreground">
                 We collect floral waste from temples and process it using traditional methods
                 combined with modern sustainable practices. This circular approach reduces environmental
