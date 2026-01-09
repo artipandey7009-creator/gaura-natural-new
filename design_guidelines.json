@@ -1,35 +1,47 @@
 {
   "brand_identity": {
-    "name": "Gaura Naturals Pvt Ltd",
-    "tone": "Vedic-inspired, Pure, Luxurious, Earthy, Spiritual",
+    "name": "GAURA Naturals",
+    "tagline": "Touch of Nature",
+    "tone": "Purity, Spirituality, Natural Calmness, Vedic-inspired, Luxurious, Earthy",
+    "core_idea": "Reflects purity, spirituality, and natural calmness. Merges tradition with modern simplicity, giving the brand a devotional and elegant identity.",
     "colors": {
       "primary": "#D5A147",
+      "primary_name": "Golden Yellow",
+      "primary_meaning": "Spirituality, light, and sacred warmth",
       "primary_foreground": "#FFFFFF",
       "secondary": "#633014",
+      "secondary_name": "Brown",
+      "secondary_meaning": "Earthiness and natural purity, resonating with ingredients",
       "secondary_foreground": "#FFFFFF",
-      "accent": "#2D4F1E",
+      "accent": "#D5A147",
       "accent_foreground": "#FFFFFF",
       "background": "#F9F8F4",
-      "foreground": "#3E2723",
+      "foreground": "#633014",
       "muted": "#EBE5D9",
-      "muted_foreground": "#8D6E63",
+      "muted_foreground": "#633014",
       "border": "#D7CCC8",
       "input": "#EFEBE9",
       "ring": "#D5A147"
     },
     "typography": {
       "headings": {
-        "family": "Vortigra, 'Cormorant Garamond', serif",
-        "weight": "400",
-        "style": "normal",
+        "family": "Vortigra, 'Playfair Display', 'Cormorant Garamond', serif",
+        "weight": "400-700",
+        "style": "Bold, clean typography for confidence and timelessness",
         "letter_spacing": "-0.02em"
       },
       "body": {
         "family": "Quicksand, sans-serif",
         "weight": "400",
-        "style": "normal",
+        "style": "Clean, modern, and readable",
         "letter_spacing": "0.02em"
       }
+    },
+    "logo_concept": {
+      "letter_g": "Shows style and modernism",
+      "letter_u": "Forms a drop representing the itra (perfume) segment",
+      "letter_a": "Negative space forms a flower petal",
+      "overall": "Symbol of peace, purity, and connection to nature"
     }
   },
   "design_system": {
