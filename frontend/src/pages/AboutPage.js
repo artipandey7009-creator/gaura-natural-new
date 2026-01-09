@@ -84,21 +84,25 @@ const AboutPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
               <Card className="p-8">
                 <h3 className="text-2xl font-serif font-bold text-primary mb-2">Yash Aggarwal</h3>
-                <p className="text-muted-foreground mb-4">Co-Founder & Director</p>
+                <p className="text-muted-foreground mb-4">Founder & Director</p>
                 <p className="text-sm text-muted-foreground">
-                  With a vision to blend traditional practices with sustainable innovation,
-                  Yash leads our mission to transform temple waste into premium aromatics while
-                  creating economic opportunities for rural communities.
+                  Founded Gaura Naturals in October 2025 with a passion for transforming natural waste into 
+                  premium aromatic products. Drawing from Uttar Pradesh's rich artisanal heritage, Yash focuses 
+                  on sustainable manufacturing innovation, reviving ancient Vedic practices in modern eco-luxury. 
+                  He prioritizes purity and environmental stewardship while empowering village women artisans, 
+                  creating meaningful livelihoods through traditional craftsmanship.
                 </p>
               </Card>
 
               <Card className="p-8">
                 <h3 className="text-2xl font-serif font-bold text-primary mb-2">Aparna Gupta</h3>
-                <p className="text-muted-foreground mb-4">Co-Founder & Director</p>
+                <p className="text-muted-foreground mb-4">Co-Director</p>
                 <p className="text-sm text-muted-foreground">
-                  Aparna brings her passion for women's empowerment and sustainable development
-                  to Gaura Naturals, ensuring that our products not only honor nature but also
-                  uplift the artisan communities who craft them.
+                  As Co-Director, Aparna brings expertise in branding and fragrances to elevate Gaura Naturals' 
+                  luxury positioning. She oversees product development for signature items like Ittar and bamboo-less 
+                  incense, blending traditional ingredients such as rose and sandalwood with contemporary design. 
+                  Aparna's vision aligns with health protection and spiritual wellness values, fostering growth in 
+                  India's eco-aromatics market.
                 </p>
               </Card>
             </div>
