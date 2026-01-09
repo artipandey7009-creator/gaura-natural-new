@@ -47,8 +47,8 @@ const AboutPage = () => {
           {/* Values */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <Card className="p-8 text-center">
-              <Target className="h-12 w-12 text-accent mx-auto mb-4" />
-              <h3 className="text-xl font-serif font-semibold mb-3">Our Mission</h3>
+              <Target className="h-12 w-12 text-[#D5A147] mx-auto mb-4" />
+              <h3 className="text-xl font-serif font-semibold mb-3 text-[#633014]">Our Mission</h3>
               <p className="text-muted-foreground text-sm">
                 To inspire a shift towards chemical-free alternatives, protecting health and the planet. 
                 We create premium, eco-friendly aromatics while empowering rural artisans, supporting Vedic 
