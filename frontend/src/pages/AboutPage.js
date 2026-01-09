@@ -88,33 +88,115 @@ const AboutPage = () => {
 
           {/* Founders Section */}
           <div className="bg-muted/30 rounded-sm p-12">
-            <h2 className="text-4xl font-serif font-bold text-foreground mb-12 text-center">
-              Our Leadership
+            <h2 className="text-4xl font-serif font-bold text-foreground mb-4 text-center">
+              Meet Our Directors
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-              <Card className="p-8">
-                <h3 className="text-2xl font-serif font-bold text-primary mb-2">Yash Aggarwal</h3>
-                <p className="text-muted-foreground mb-4">Founder & Director</p>
-                <p className="text-sm text-muted-foreground">
-                  Founded Gaura Naturals in October 2025 with a passion for transforming natural waste into 
-                  premium aromatic products. Drawing from Uttar Pradesh's rich artisanal heritage, Yash focuses 
-                  on sustainable manufacturing innovation, reviving ancient Vedic practices in modern eco-luxury. 
-                  He prioritizes purity and environmental stewardship while empowering village women artisans, 
-                  creating meaningful livelihoods through traditional craftsmanship.
-                </p>
+            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+              Led by visionary leaders dedicated to transforming natural waste into premium aromatics 
+              while empowering rural communities.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+              <Card className="p-8 border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]">
+                <div className="flex flex-col items-center text-center mb-6">
+                  <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#D5A147] to-[#C39138] flex items-center justify-center mb-4">
+                    <span className="text-4xl font-serif font-bold text-white">YA</span>
+                  </div>
+                  <h3 className="text-3xl font-serif font-bold text-[#633014] mb-2">Yash Aggarwal</h3>
+                  <p className="text-[#D5A147] font-semibold text-lg mb-4">Founder & Director</p>
+                </div>
+                
+                <div className="space-y-4">
+                  <p className="text-muted-foreground leading-relaxed">
+                    Founder and Director of Gaura Naturals, Yash Aggarwal pioneered the vision of transforming 
+                    natural waste into premium aromatic products. His passion lies in creating sustainable alternatives 
+                    that honor Vedic traditions while addressing modern environmental challenges.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Drawing from Uttar Pradesh's rich artisanal heritage, Yash focuses on sustainable manufacturing 
+                    innovation and reviving ancient Vedic practices in modern eco-luxury. His commitment extends beyond 
+                    business—he's dedicated to empowering village women artisans, creating meaningful livelihoods through 
+                    traditional craftsmanship while prioritizing purity and environmental stewardship.
+                  </p>
+                  
+                  <div className="pt-4 border-t border-[#D5A147]/20">
+                    <p className="text-sm font-semibold text-[#633014] mb-2">Key Focus Areas:</p>
+                    <ul className="space-y-2">
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Transforming natural waste into premium aromatics</span>
+                      </li>
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Empowering village women artisans</span>
+                      </li>
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Sustainable manufacturing innovation</span>
+                      </li>
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Reviving Vedic practices in eco-luxury</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </Card>
 
-              <Card className="p-8">
-                <h3 className="text-2xl font-serif font-bold text-primary mb-2">Aparna Gupta</h3>
-                <p className="text-muted-foreground mb-4">Co-Director</p>
-                <p className="text-sm text-muted-foreground">
-                  As Co-Director, Aparna brings expertise in branding and fragrances to elevate Gaura Naturals' 
-                  luxury positioning. She oversees product development for signature items like Ittar and bamboo-less 
-                  incense, blending traditional ingredients such as rose and sandalwood with contemporary design. 
-                  Aparna's vision aligns with health protection and spiritual wellness values, fostering growth in 
-                  India's eco-aromatics market.
-                </p>
+              <Card className="p-8 border-[#D5A147]/20 hover:border-[#D5A147] transition-all duration-500 hover:shadow-[0_12px_28px_rgba(213,161,71,0.15)]">
+                <div className="flex flex-col items-center text-center mb-6">
+                  <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#D5A147] to-[#C39138] flex items-center justify-center mb-4">
+                    <span className="text-4xl font-serif font-bold text-white">AG</span>
+                  </div>
+                  <h3 className="text-3xl font-serif font-bold text-[#633014] mb-2">Aparna Gupta</h3>
+                  <p className="text-[#D5A147] font-semibold text-lg mb-4">Co-Director</p>
+                </div>
+                
+                <div className="space-y-4">
+                  <p className="text-muted-foreground leading-relaxed">
+                    As Co-Director, Aparna Gupta brings her expertise in branding and fragrances to elevate 
+                    Gaura Naturals' luxury positioning. She is a recognized expert in traditional fragrances, 
+                    particularly Ittar, blending centuries-old knowledge with contemporary design sensibilities.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Aparna oversees product development for signature items like Ittar and bamboo-less incense, 
+                    crafting luxurious experiences using traditional ingredients such as rose and sandalwood. 
+                    Her vision aligns perfectly with the brand's core values of health protection and spiritual wellness, 
+                    fostering growth in India's emerging eco-aromatics market.
+                  </p>
+                  
+                  <div className="pt-4 border-t border-[#D5A147]/20">
+                    <p className="text-sm font-semibold text-[#633014] mb-2">Key Expertise:</p>
+                    <ul className="space-y-2">
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Expert in traditional Ittar and fragrances</span>
+                      </li>
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Branding and luxury positioning</span>
+                      </li>
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Product development (Ittar, bamboo-less incense)</span>
+                      </li>
+                      <li className="flex items-start text-sm text-muted-foreground">
+                        <span className="text-[#D5A147] mr-2">•</span>
+                        <span>Blending tradition with contemporary design</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </Card>
+            </div>
+
+            {/* Mission Alignment */}
+            <div className="mt-12 max-w-3xl mx-auto text-center">
+              <p className="text-lg text-muted-foreground italic">
+                "Together, we are committed to reviving Vedic practices through sustainable innovation, 
+                creating eco-luxury products from recycled temple flowers and cow dung, while empowering 
+                the artisan communities that bring our vision to life."
+              </p>
             </div>
           </div>
 
